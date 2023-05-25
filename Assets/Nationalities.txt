@@ -1,0 +1,34 @@
+1. Brazil
+2. French: Ligue 1 & 2
+3. English: League 1, 2, 3 & 4
+4. Spanish: League 1, 2 & 3
+5. German: League 1 & 2
+6. Italian: League A & B
+7. Argentina
+8. Mexico
+9. Portugal
+10. Cambodia
+11. South Korea
+12. Cameroon
+13. Belgium
+14. Canada
+15. Costa Rica
+16. Croatia
+17. Denmark
+18. Equador
+19. Japan
+20. Morocco
+21. Netherlands
+22. Switzerland
+23. Uruguay
+24. Wales
+25. Saudi Arabia
+26. Chile
+27. Colombia
+28. Paraguai
+29. Czech Republic
+30. Sweden
+31. Qatar
+32. United States
+
+If you decide to use this, you must credit CharlesGabriel and link back to CGArtsenal.
