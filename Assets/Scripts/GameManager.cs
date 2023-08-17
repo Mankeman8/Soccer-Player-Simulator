@@ -55,6 +55,8 @@ public class GameManager : MonoBehaviour
 
     public void SaveUserInfo()
     {
+        userInfo.player = new Player();
+        userInfo.player.stats = new Stat();
         //Save Icon
         Toggle[] images = GameObject.Find("Player Picture Selector").GetComponentsInChildren<Toggle>();
         for (int i = 0; i < images.Length; i++)
@@ -80,7 +82,7 @@ public class GameManager : MonoBehaviour
             if (position[i].isOn)
             {
                 TextMeshProUGUI[] tempName = position[i].gameObject.GetComponentsInChildren<TextMeshProUGUI>();
-                userInfo.position = tempName[0].text;
+                userInfo.player.stats.position = tempName[0].text;
             }
         }
         
@@ -88,23 +90,22 @@ public class GameManager : MonoBehaviour
         TMP_InputField firstName = GameObject.Find("First Name").GetComponent<TMP_InputField>();
         if (firstName.text == "")
         {
-            userInfo.firstName = "Nasir";
+            userInfo.player.firstName = "Nasir";
         }
         else
         {
-            userInfo.firstName = firstName.text;
+            userInfo.player.firstName = firstName.text;
         }
 
         //Save Last Name
         TMP_InputField lastName = GameObject.Find("Last Name").GetComponent<TMP_InputField>();
-        userInfo.lastName = lastName.text;
         if (lastName.text == "")
         {
-            userInfo.lastName = "Omar";
+            userInfo.player.lastName = "Omar";
         }
         else
         {
-            userInfo.lastName = lastName.text;
+            userInfo.player.lastName = lastName.text;
         }
 
         //Save Nationality
@@ -113,7 +114,7 @@ public class GameManager : MonoBehaviour
         {
             if (nation[i].isOn)
             {
-                userInfo.nationality = nation[i].name;
+                userInfo.player.stats.nationality = nation[i].name;
             }
         }
         saveFileManager.SavePlayerInfo(userInfo);

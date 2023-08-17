@@ -7,10 +7,12 @@ using UnityEngine.UI;
 public class MusicManager : MonoBehaviour
 {
     private static MusicManager instance;
+    private SaveFileManager SFM;
     private AudioSource aSource;
     private float trackTimer;
     private float songsPlayed;
     private bool[] beenPlayed;
+    private string[] volumes;
     [Header("Music and SFX")]
     public AudioClip[] songs;
     public AudioMixer musicMixer;
@@ -32,6 +34,25 @@ public class MusicManager : MonoBehaviour
             // If there is no instance, set this instance as the persistent one and don't destroy it
             instance = this;
             DontDestroyOnLoad(gameObject);
+        }
+        //TODO: load volumes for music/sfx
+        SFM = FindObjectOfType<SaveFileManager>();
+        volumes = SFM.LoadOptionInfo();
+        if (volumes == null)
+        {
+            volumes = new string[2];
+            volumes[0] = "-25";
+            volumes[1] = "-25";
+            musicMixer.SetFloat(musicExposedParam, float.Parse(volumes[0]));
+            sfxMixer.SetFloat(sfxExposedParam, float.Parse(volumes[1]));
+        }
+        else
+        {
+            Debug.Log("Music File has things");
+            //Debug.Log(volumes[0].ToString());
+            //Debug.Log(volumes[1].ToString());
+            //musicMixer.SetFloat(musicExposedParam, float.Parse(volumes[0]));
+            //sfxMixer.SetFloat(sfxExposedParam, float.Parse(volumes[1]));
         }
     }
 
@@ -95,6 +116,10 @@ public class MusicManager : MonoBehaviour
         {
             musicMixer.SetFloat(musicExposedParam, -100);
         }
+        volumes[0] = musicSlider.value.ToString();
+        volumes[1] = sfxSlider.value.ToString();
+        SFM.SaveOptionInfo(volumes);
+        Debug.Log("Data saved: music");
     }
 
     public void SetSFXLevel()
@@ -108,6 +133,10 @@ public class MusicManager : MonoBehaviour
         {
             sfxMixer.SetFloat(sfxExposedParam, -100);
         }
+        volumes[0] = musicSlider.value.ToString();
+        volumes[1] = sfxSlider.value.ToString();
+        SFM.SaveOptionInfo(volumes);
+        Debug.Log("Data saved: volume");
     }
 
     private void ResetShuffle()
@@ -136,5 +165,7 @@ public class MusicManager : MonoBehaviour
         //Main menu, when changing to the options screen, find the sliders to change the volume
         musicSlider = GameObject.Find("Music Slider").GetComponent<Slider>();
         sfxSlider = GameObject.Find("SFX Slider").GetComponent<Slider>();
+        musicSlider.value = float.Parse(volumes[0]);
+        sfxSlider.value = float.Parse(volumes[1]);
     }
 }

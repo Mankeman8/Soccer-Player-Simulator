@@ -17,8 +17,9 @@ public class Stat
     public float wages;
     [Range(0, 1000000000), Tooltip("How much do you get paid from sponsors?")]
     public float sponsorWages;
-    
+
     //WIP
+    public string position;
     public string horoscope;
     public float height;
     public float weight;
