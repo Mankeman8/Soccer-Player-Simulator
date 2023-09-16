@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.IO;
+using System.Runtime.CompilerServices;
 using UnityEngine;
 
 [System.Serializable]
@@ -25,19 +26,24 @@ public class QuestionList
 public class QuestionManager : MonoBehaviour
 {
     private QuestionList questionList;
+    private Question currentQuestion;
 
     void Start()
     {
-        string path = Application.dataPath + "/Questions.json";
-        string jsonString = File.ReadAllText(path);
-        questionList = JsonUtility.FromJson<QuestionList>(jsonString);
+        string json = Resources.Load<TextAsset>("Questions").ToString();
+        questionList = JsonUtility.FromJson<QuestionList>(json);
+    }
+
+    public Question GetCurrentQuestion()
+    {
+        return currentQuestion;
     }
 
     public Question GetRandomQuestion()
     {
         int index = Random.Range(0, questionList.questions.Count);
-        Question question = questionList.questions[index];
+        currentQuestion = questionList.questions[index];
         questionList.questions.RemoveAt(index); // Removes the question from the list to avoid duplication
-        return question;
+        return currentQuestion;
     }
 }

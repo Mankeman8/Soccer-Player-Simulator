@@ -1,0 +1,70 @@
+{
+  "personalities": [
+    {
+    "title": "True Demon",
+    "minScore": 50,
+    "maxScore": 50,
+    "description": "I can't tell whether you picked these genuinely or if you spammed the 'Next Question' button so you can go ahead with the gameplay. If the former, then you're just like me and you deserve some type of reward. High five! If you're the latter, I hope you enjoy the gameplay that you've chosen and goodluck."
+    },
+    {
+      "title": "Narcissist",
+      "minScore": 47,
+      "maxScore": 49,
+      "description": "Not sure where you chose unfavorably, but you're very close to becoming a demon. You're the important one, you deserve all the attention, you want people to admire you for all the glory that you bring to the world. You remind me of someone I know, you probably feel this way because you were neglected as a child. Do you have any siblings? It might explain why you're like this."
+    },
+    {
+      "title": "CEO",
+      "minScore": 43,
+      "maxScore": 46,
+      "description": "Not once have I ever met a CEO who hasn't gained without suffering themselves, they always made the people around them to suffer. Not only do you not care about the people closest to you, you just want to gain more and more like the greedy, selfish person you are. You're probably a really cool person and very misunderstood, but you really need some empathy."
+    },
+    {
+      "title": "Executive",
+      "minScore": 39,
+      "maxScore": 42,
+      "description": "The Executive will do things that benefit him while taking risks even if they're on the illogical side. While you might think this is a good trait, it can sometimes lead to you creating more enemies than friends. 'The people closest to me understand me, it's the other's that think i'm delusional', right?"
+    },
+    {
+      "title": "Commander",
+      "minScore": 35,
+      "maxScore": 38,
+      "description": "The Commander, what an amazing title you received. Not only are you logical, but the charisma you have makes you for an amazing person. Slightly psychotic for the choices you made, but you chose based on the facts you were given and thought about all the possibilities before deciding. Great person, even greater heart."
+    },
+    {
+      "title": "Protagonist",
+      "minScore": 31,
+      "maxScore": 34,
+      "description": "A Protagonist person thinks they're the main character of the story, which is technically true, you're the main character in your world. Only problem with them is that they think they're the center of the universe (like a typical American), which makes them to be decent people if you can get past that trope of theirs."
+    },
+    {
+      "title": "Logistician",
+      "minScore": 27,
+      "maxScore": 30,
+      "description": "A Logistician nine times out of ten takes a look at the facts and makes decisions based on what's more logical to do, as well as making sure they're receiving the best possibility. These types of people enjoy more strategic games and are really good friends."
+    },
+    {
+      "title": "Adventurer",
+      "minScore": 23,
+      "maxScore": 26,
+      "description": "The Adventurer is like the name says, an adventurer. They want to explore and travel, see new things and enjoy life while taking slight risks so that they can further enjoy themselves. These people are very fun to go travelling with, and will rarely disappoint you."
+    },
+    {
+      "title": "Entertainer",
+      "minScore": 19,
+      "maxScore": 22,
+      "description": "An Entertainer is very much the type of person that will do things just so that they'll see some type of enjoyment from other's. If it negatively affects them or if there's a chance to, they'll take the safe option and decide not to put themselves in harms way."
+    },
+    {
+      "title": "Defender",
+      "minScore": 15,
+      "maxScore": 18,
+      "description": "A Defender type person are the types that you definitely would like to befriend at one point in your life. You feel safe and comfortable around them, and they don't suffocate you with the kindness they give. Very reliable people."
+    },
+    {
+      "title": "Angel",
+      "minScore": 10,
+      "maxScore": 14,
+      "description": "I can't tell if you picked these on purpose or if you genuinely feel this way about all of the questions. An Angel is definitely the type of person to 'forgive and forget' and follows the straight and narrow path. You're either very naive or you don't mind when people take advantage of your kindness."
+    }
+  ]
+}

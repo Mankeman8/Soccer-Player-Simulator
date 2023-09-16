@@ -1,0 +1,223 @@
+{
+  "questions": [
+    {
+      "questionText": "You're given the opportunity to teleport anywhere you want, but every time you do, 500 people die at random (yourself not included). What do you do?",
+      "answers": [
+        {
+          "text": "Accept the offer and teleport frequently, for you don't care about other people.",
+          "value": 5
+        },
+        {
+          "text": "Accept the offer but teleport rarely, because you don't think people should die for a bad reason.",
+          "value": 3
+        },
+        {
+          "text": "Refuse the offer because you don't want the people close to you to die.",
+          "value": 2
+        },
+        {
+          "text": "Refuse the offer because you value human lives more than teleportation.",
+          "value": 1
+        }
+      ]
+    },
+
+    {
+      "questionText": "You have the power to alter anyone's reality, but every alteration results in that person to only be able to live for another year. What do you do?",
+      "answers": [
+        {
+          "text": "Use the power freely, not worrying about their lifespan.",
+          "value": 5
+        },
+        {
+          "text": "Use the power sparingly, somewhat concerned about their lifespan.",
+          "value": 3
+        },
+        {
+          "text": "Use the power rarely, only using it on your enemies.",
+          "value": 2
+        },
+        {
+          "text": "Refuse to use the power, valuing other people's lifespan.",
+          "value": 1
+        }
+      ]
+    },
+
+    {
+      "questionText": "You're given the power of invisibility, but for every minute you're invisible, that's a minute taken off your lifespan. What do you do?",
+      "answers": [
+        {
+          "text": "Accept the power and use it often, for you don't care about the future, only the present.",
+          "value": 5
+        },
+        {
+          "text": "Accept the power and rarely use it, for you want to enjoy your time while also wanting to live a long time.",
+          "value": 3
+        },
+        {
+          "text": "Accept the offer but use it only during emergencies, for you value your lifespan a lot.",
+          "value": 2
+        },
+        {
+          "text": "Refuse the offer, because you wouldn't trade your lifespan for such a bad tradeoff.",
+          "value": 1
+        }
+      ]
+    }, 
+
+    {
+      "questionText": "The parental figure in your life that you respect and love, approaches you and requests for you to murder someone. What do you do?",
+      "answers": [
+        {
+          "text": "Obey their command and commit murder, because they must have a good reason to ask you to do it.",
+          "value": 5
+        },
+        {
+          "text": "Obey their command and commit murder, but question them afterwards due to murder being kind of extreme.",
+          "value": 3
+        },
+        {
+          "text": "Question the parental figure as to why they're asking YOU to murder, instead of doing it themselves.",
+          "value": 2
+        },
+        {
+          "text": "Refuse, because that person didn't do anything to you and you value human lives.",
+          "value": 1
+        }
+      ]
+    }, 
+
+    {
+      "questionText": "You have an opportunity to advance your career by framing a co-worker for a mistake you made. The consequence for your mistake is 3 weeks without pay along with a possibility for dismissal from your position (fired). What do you do?",
+      "answers": [
+        {
+          "text": "Frame the coworker without a second thought, feeling no guilt about your choice.",
+          "value": 5
+        },
+        {
+          "text": "Frame the coworker after considering the pros and cons, feeling guilty while doing it.",
+          "value": 3
+        },
+        {
+          "text": "Frame the coworker while also putting some of the blame on yourself, that way both of you don't get severely punished.",
+          "value": 2
+        },
+        {
+          "text": "Admit the mistake that you commited and face the consequences.",
+          "value": 1
+        }
+      ]
+    }, 
+
+    {
+      "questionText": "You discover a device that allows you to shapeshift into anybody and anything you want, but for every hour you're transformed, that's a minute off your lifespan. What do you do?",
+      "answers": [
+        {
+          "text": "Use the device as often as you can, for you live in the present and not the future.",
+          "value": 5
+        },
+        {
+          "text": "Use the device sparringly, for you value the future and would like to live as long as you can.",
+          "value": 3
+        },
+        {
+          "text": "Use the device for emergencies, as you don't think it's necessary to shapeshift into other people.",
+          "value": 2
+        },
+        {
+          "text": "Give the device to the government, as you value your lifespan and have no use for it.",
+          "value": 1
+        }
+      ]
+    },
+
+    {
+      "questionText": "You go on a vacation alone and encounter someone who looks exactly like your significant other of 10 years. After some drinks and talking, they want to sleep with you. What do you do?",
+      "answers": [
+        {
+          "text": "Sleep with them, doesn't matter what they look like, you want to do it.",
+          "value": 5
+        },
+        {
+          "text": "Sleep with them, and constantly tell yourself that you're sleeping with your significant other.",
+          "value": 3
+        },
+        {
+          "text": "Don't sleep with them, but be very flattered by the offer and mention to them that they look exactly like your significant other.",
+          "value": 2
+        },
+        {
+          "text": "Don't sleep with them, for they aren't your significant other and you're not the type to cheat.",
+          "value": 1
+        }
+      ]
+    },
+
+    {
+      "questionText": "You get home after a long shift and you encounter your best friend of 10 years sleeping with your significant other of 15 years. What do you do?",
+      "answers": [
+        {
+          "text": "Plot your revenge and afterwards cut ties with both of them.",
+          "value": 5
+        },
+        {
+          "text": "Forgive the best friend, cut ties with the significant other.",
+          "value": 3
+        },
+        {
+          "text": "Forgive the significant other, cut ties with the best friend.",
+          "value": 2
+        },
+        {
+          "text": "Forgive both of them.",
+          "value": 1
+        }
+      ]
+    },
+
+    {
+      "questionText": "You as a researcher were able to find the cure for cancer. The government gives you an ultimatum: accept a quarter of a billion dollars (250mil) and give them the cure or they will kill you and steal the cure from you. What do you do?",
+      "answers": [
+        {
+          "text": "Take the money, you don't care about curing cancer, you did it for the money.",
+          "value": 5
+        },
+        {
+          "text": "Take the money and try to find a way to release the cure to the world, you still want to give it to the world but you won't risk yourself for it.",
+          "value": 3
+        },
+        {
+          "text": "Take the money while keeping a copy of the cure, with a possibility for the government to finding out and killing you afterwards.",
+          "value": 2
+        },
+        {
+          "text": "Reject the money and release the cure to the world, ultimately dying but saving humanity from cancer.",
+          "value": 1
+        }
+      ]
+    },
+
+    {
+      "questionText": "After a night out with 3 of your closest best friends, an otherworldly being spawns in front of you. The being looks into each of your eyes, then brings its eyes back to yours and says 'You seem like the leader of your group, so this deal is for you only. Between you four, the more people you kill, the more money you will gain. You will not be punished for these murder's, but they must all be performed within 30 minutes from the start of the timer. Also, if you decide to kill any of your best friends, you will also gain any power you desire but you cannot revive any of them in any way, shape or form.. One best friend dead = one power. You get the idea. Your timer starts... NOW!'. What do you do?",
+      "answers": [
+        {
+          "text": "No hesitation, you murder all 3 of your best friends, having 3 super powers is amazing!",
+          "value": 5
+        },
+        {
+          "text": "You only really have one or two real best friend(s), you don't care for the other one or two.",
+          "value": 3
+        },
+        {
+          "text": "You leave your best friends alone and decide to partner up to kill other innocent people to gain money.",
+          "value": 2
+        },
+        {
+          "text": "You reject the offer that the being has offered you",
+          "value": 1
+        }
+      ]
+    }
+  ]
+}
